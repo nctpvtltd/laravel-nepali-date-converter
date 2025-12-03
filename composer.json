@@ -1,27 +1,39 @@
 {
-    "name": "nctpvtltd/laravel-nepali-date-converter",
-    "description": "A Laravel package to convert Nepali BS dates to AD and vice versa",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "NepaliDateConverter\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=8.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "NepaliDateConverter\\NepaliDateConverterServiceProvider"
-            ]
-        }
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "NCT Soft Pvt. Ltd",
-            "email": "contact@nctsoft.com.np"
-        }
-    ]
+  "name": "nctpvtltd/laravel-nepali-date-converter",
+  "description": "A Laravel package to convert Nepali BS dates to AD and vice versa",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "nepali",
+    "date",
+    "bs",
+    "ad",
+    "calendar",
+    "nepali-date",
+    "date-converter",
+    "bs-to-ad",
+    "ad-to-bs"
+  ],
+  "autoload": {
+    "psr-4": {
+      "NepaliDateConverter\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NepaliDateConverter\\NepaliDateConverterServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NCT Soft Pvt. Ltd",
+      "email": "contact@nctsoft.com.np"
+    }
+  ]
 }
