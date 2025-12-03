@@ -16,5 +16,12 @@
                 "NepaliDateConverter\\NepaliDateConverterServiceProvider"
             ]
         }
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NCT Soft Pvt. Ltd",
+            "email": "contact@nctsoft.com.np"
+        }
+    ]
 }
